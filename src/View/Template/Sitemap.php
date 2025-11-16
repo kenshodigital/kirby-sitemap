@@ -8,7 +8,9 @@ use Kirby\Cms\Pages;
 
 final class Sitemap
 {
-	public function __construct(private readonly App $app) {}
+	public function __construct(
+		private readonly App $app,
+	) {}
 
 	public bool $hasLocales {
 		get => $this->app->multilang();
@@ -23,11 +25,14 @@ final class Sitemap
 			$languages = $this->app->languages();
 			$result = [];
 
-			if ($pages instanceof Pages ) {
+			if ($pages instanceof Pages) {
 				if ($this->hasLocales) {
 					foreach ($languages as $language) {
 						foreach ($pages as $page) {
-							$result[] = new Item(page: $page, language: $language);
+							$result[] = new Item(
+								page: $page,
+								language: $language,
+							);
 						}
 					}
 				} else {

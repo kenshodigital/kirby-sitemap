@@ -26,7 +26,12 @@ final class Item
 	 * @var Locale[]
 	 */
 	public array $locales {
-		get => $this->app->languages()->toArray(map: fn(Language $language): Locale => new Locale(page: $this->page, language: $language));
+		get => $this->app
+			->languages()
+			->toArray(map: fn(Language $language): Locale => new Locale(
+				page: $this->page,
+				language: $language,
+			));
 	}
 
 	public string $default {

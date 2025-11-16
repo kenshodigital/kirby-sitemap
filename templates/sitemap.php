@@ -30,4 +30,4 @@ use Kensho\Sitemap\View\Template\Sitemap;
 			</url>
 		<?php endforeach; ?>
 	</urlset>
-<?php endif; ?>
+<?php endif;
