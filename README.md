@@ -23,9 +23,15 @@ use Kirby\Cms\Pages;
 use Kirby\Cms\Site;
 
 return fn(Site $site): Pages => $site
-  ->index()
-  ->template(templates: ["home", "about", "contact", "product", "article"])
-  ->listed();
+	->index()
+	->template(templates: [
+		'home',
+		'about',
+		'contact',
+		'product',
+		'article',
+	])
+	->listed();
 ```
 
 [8FBTBp]: https://getkirby.com
