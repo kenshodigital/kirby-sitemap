@@ -1,0 +1,29 @@
+{
+	"name": "kenshodigital/kirby-sitemap",
+	"description": "Adds an XML sitemap to Kirby projects.",
+	"type": "kirby-plugin",
+	"version": "1.0.0",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jens Scherbl"
+		}
+	],
+	"support": {
+		"source": "https://github.com/kenshodigital/kirby-sitemap",
+		"issues": "https://github.com/kenshodigital/kirby-sitemap/issues"
+	},
+	"require": {
+		"php": "^8.5",
+		"getkirby/cms": "^5.2",
+		"getkirby/composer-installer": "^1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kensho\\Sitemap\\": "src"
+		}
+	},
+	"extra": {
+		"installer-name": "sitemap"
+	}
+}
