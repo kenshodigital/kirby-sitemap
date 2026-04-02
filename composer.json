@@ -2,11 +2,19 @@
 	"name": "kenshodigital/kirby-sitemap",
 	"description": "Adds an XML sitemap to Kirby projects.",
 	"type": "kirby-plugin",
-	"version": "1.0.0",
 	"license": "MIT",
+	"keywords": [
+		"kirby",
+		"cms",
+		"xml",
+		"sitemap",
+		"seo"
+	],
 	"authors": [
 		{
-			"name": "Jens Scherbl"
+			"name": "kenshō digital",
+			"email": "mail@kensho.digital",
+			"homepage": "https://kensho.digital"
 		}
 	],
 	"support": {
