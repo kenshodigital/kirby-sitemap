@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Kensho\Sitemap\View\Template\Sitemap;
 
@@ -13,7 +15,7 @@ final class Item
 
 	public function __construct(
 		private readonly Page $page,
-		private readonly Language|null $language = null,
+		private readonly ?Language $language = null,
 	) {
 		$this->app = $page->kirby();
 	}
