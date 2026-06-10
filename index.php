@@ -25,6 +25,6 @@ App::plugin(name: 'kensho/sitemap', extends: [
 		],
 	],
 	'templates' => [
-		'sitemap' => "$root/templates/sitemap.php",
+		'sitemap' => "$root/templates/sitemap.xml.php",
 	],
 ]);
