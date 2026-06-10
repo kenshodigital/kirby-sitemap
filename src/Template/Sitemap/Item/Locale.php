@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kensho\Sitemap\View\Template\Sitemap\Item;
+namespace Kensho\Sitemap\Template\Sitemap\Item;
 
 use Kirby\Cms\Language;
 use Kirby\Cms\Page;

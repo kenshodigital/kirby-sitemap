@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kensho\Sitemap\View\Template\Sitemap;
+namespace Kensho\Sitemap\Template\Sitemap;
 
-use Kensho\Sitemap\View\Template\Sitemap\Item\Locale;
+use Kensho\Sitemap\Template\Sitemap\Item\Locale;
 use Kirby\Cms\App;
 use Kirby\Cms\Language;
 use Kirby\Cms\Page;

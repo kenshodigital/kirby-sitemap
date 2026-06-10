@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kensho\Sitemap\View\Template;
+namespace Kensho\Sitemap\Template;
 
-use Kensho\Sitemap\View\Template\Sitemap\Item;
+use Kensho\Sitemap\Template\Sitemap\Item;
 use Kirby\Cms\App;
 use Kirby\Cms\Pages;
 
