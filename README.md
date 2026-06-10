@@ -24,7 +24,7 @@ The plugin adds a `/sitemap.xml` route and returns an [XML sitemap][ZXutxz], fol
 ### Installation
 
 ```shell
-composer require kenshodigital/kirby-sitemap ^1.0
+composer require kenshodigital/kirby-sitemap ^1.1
 ```
 
 ### Development
