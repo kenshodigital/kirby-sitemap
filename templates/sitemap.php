@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Kensho\Sitemap\View\Template\Sitemap;
+use Kensho\Sitemap\Template\Sitemap;
 
 /**
  * @var Sitemap $view
