@@ -27,9 +27,6 @@
 		"getkirby/composer-installer": "^1.2"
 	},
 	"autoload": {
-		"files": [
-			"alias.php"
-		],
 		"psr-4": {
 			"Kensho\\Sitemap\\": "src"
 		}
