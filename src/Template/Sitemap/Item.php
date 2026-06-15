@@ -11,14 +11,11 @@ use Kirby\Cms\Page;
 
 final class Item
 {
-	private readonly App $app;
-
 	public function __construct(
+		private readonly App $app,
 		private readonly Page $page,
 		private readonly ?Language $language = null,
-	) {
-		$this->app = $page->kirby();
-	}
+	) {}
 
 	public string $url {
 		get => $this->page->url(options: $this->language?->code());

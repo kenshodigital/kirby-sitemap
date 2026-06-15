@@ -31,12 +31,12 @@ final class Sitemap
 				if ($this->hasLocales) {
 					foreach ($languages as $language) {
 						foreach ($pages as $page) {
-							$result[] = new Item(page: $page, language: $language);
+							$result[] = new Item(app: $this->app, page: $page, language: $language);
 						}
 					}
 				} else {
 					foreach ($pages as $page) {
-						$result[] = new Item(page: $page);
+						$result[] = new Item(app: $this->app, page: $page);
 					}
 				}
 			}
